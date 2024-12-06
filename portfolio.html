@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <!-- meta tag -->
+    <meta charset="UTF8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <meta author="Davide Rosso" content="Davide Rosso">
+    <meta name="description" content="Sito Web Personale di Davide Rosso, esperto in digital marketing e sviluppo web">
+    <meta name="keyword" content="Davide Rosso, Digital marketing, Web Development">
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    
+    <!-- import framework materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+
+    <!-- import icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- import css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body>
+
+     <!-- Header with Navbar-->
+     <div class="col 12 z-depth-3">
+        <div class="navbar-fixed" style="margin: 10px auto;"> 
+            <nav>
+              <div class="nav-wrapper">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html" class="active-tm">Home</a></li>
+                    <li><a href="curriculum.html">curriculum</a></li>
+                    <li class="active"><a href="portfolio.html">portfolio</a></li>
+                    <li><a href="contatti.html">contatti</a></li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+        </div>
+    
+        <ul class="sidenav" id="mobile-demo">
+            <li><img class="circle" id="sidenav-img" src="assets/img/pixel_dave.png"></li>
+            <hr style="margin-top: 10px; margin-bottom: 10px;">
+            <li ><a href="/index.html" id="navbar-link">Home</a></li>
+            <li><a href="curriculum.html" id="navbar-link">curriculum</a></li>
+            <li class="active"><a href="portfolio.html" id="navbar-link">portfolio</a></li>
+            <li><a href="contatti.html" id="navbar-link">contatti</a></li>
+        </ul>
+    
+        <script>
+            
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, {edge:'right'});
+      });
+         </script>
+    
+    
+
+    <!-- Title and Filter -->
+    <div class="row">
+        <div class="col s12">
+            <div class="card z-depth-3 always-visible">
+            <h1>I miei progetti</h1>
+              <div class="switch filter-controls center-align" >
+                <label class="subtitle">Digital Marketing
+                <input type="checkbox" id="filter-digital-marketing" checked/>
+                <span class="lever"></span>
+                </label>
+                <label class="subtitle">Web Desing
+                <input type="checkbox" id="filter-web-design" checked />
+                <span class="lever"></span>
+                </label>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards Portfolio -->
+    <div class="portfolio-container" id="portfolio-container">
+    <div class="row" id="portfolio-row">
+  
+        <div class="col xl3 digital-marketing">
+            <div class="card z-depth-3">
+                <div class="card-image">
+                  <img class="card-img" src="/assets/img/Allafonte.png">
+                </div>
+                <div class="card-content">
+                  <h2>Progetto Digital Marketing - Alla Fonte </h2>
+                  <p class="subtitle">Sviluppo di una strategia di marketing completa per il Brand Agroalimentare "Alla Fonte"
+                  </p>
+                </div>
+                <div class="card-action">
+                    <a href="assets/doc/allafonte.pdf" target="_blank" class="waves-effect waves-light btn" id="cta">Scarica il .pdf</a>
+                </div>
+              </div>
+        </div>
+        <div class="col xl3 digital-marketing">
+            <div class="card z-depth-3">
+                <div class="card-image">
+                  <img class="card-img" src="/assets/img/kreas.png">
+                </div>
+                <div class="card-content">
+                  <h2> Progetto di Influencer Marketing - KREAS</h2>
+                  <p class="subtitle">Sviluppo e creazione di una strategia di <b>Influencer Marketing</b> per un brand di carne "coltivata"
+                </div>
+                <div class="card-action">
+                    <a href="assets/doc/kreas.pdf" target="_blank" class="waves-effect waves-light btn" id="cta">Scarica il .pdf</a>
+                </div>
+              </div>
+        </div>
+        <div class="col xl3 digital-marketing">
+            <div class="card z-depth-3">
+                <div class="card-image">
+                  <img class="card-img" src="/assets/img/unobravo.png">
+                </div>
+                <div class="card-content">
+                  <h2> Progetto Google Performance Max - Unobravo</h2>
+                  <p class="subtitle">Creazione di una Campagna Google ADS utilizzando le campagne PMax per il servizio online "Unobravo"
+                  </p>
+                </div>
+                <div class="card-action">
+                    <a href="assets/doc/unobravo.pdf" target="_blank" class="waves-effect waves-light btn" id="cta">Scarica il .pdf</a>
+                </div>
+              </div>
+        </div>
+       
+        <div class="col xl3 digital-marketing">
+            <div class="card z-depth-3">
+                <div class="card-image">
+                  <img class="card-img" src="/assets/img/Orizon.png">
+                </div>
+                <div class="card-content">
+                  <h2> Progetto Facebook Ads - Agenzia Viaggi Orizon</h2>
+                  <p class="subtitle">Sviluppo di una strategia per le campagne Meta Ads per il l'agenzia viaggi "Orizon"
+                  </p>
+                </div>
+                <div class="card-action">
+                    <a href="assets/doc/orizon.pdf" target="_blank" class="waves-effect waves-light btn" id="cta">Scarica il .pdf</a>
+                </div>
+              </div>
+        </div>
+        <div class="col xl3 digital-marketing">
+            <div class="card z-depth-3">
+                <div class="card-image">
+                  <img class="card-img" src="/assets/img/panacea.png">
+                </div>
+                <div class="card-content">
+                  <h2> Progetto Seo Audit - Panetteria Panacea social farm</h2>
+                  <p class="subtitle">Analisi SEO Tecnica del sito panaceasocialfarm.it con analisi della struttura completa del sito
+                  </p>
+                </div>
+                <div class="card-action">
+                    <a href="assets/doc/panacea.pdf" target="_blank" class="waves-effect waves-light btn" id="cta">Scarica il .pdf</a>
+                </div>
+              </div>
+        </div>
+        <div class="col xl3 digital-marketing">
+            <div class="card z-depth-3">
+                <div class="card-image">
+                  <img class="card-img" src="/assets/img/copywritingSEO.png">
+                </div>
+                <div class="card-content">
+                  <h2> Progetto Copywriting e SEO - Auto elettriche</h2>
+                  <p class="subtitle">Creazione di un blog post per il settore automotive sul tema delle auto elettriche 
+                  </p>
+                </div>
+                <div class="card-action">
+                    <a href="assets/doc/copy.pdf" target="_blank" class="waves-effect waves-light btn" id="cta">Scarica il .pdf</a>
+                </div>
+              </div>
+        </div>
+        <div class="col xl3 digital-marketing">
+            <div class="card z-depth-3">
+                <div class="card-image">
+                  <img class="card-img" src="/assets/img/dott.png">
+                </div>
+                <div class="card-content">
+                  <h2> Progetto Analisi Strategica - Micromobilità Dott</h2>
+                  <p class="subtitle">Analisi Strategica del Contesto e della presenza digitale di Dott e dei suoi principali competitor
+                  </p>
+                </div>
+                <div class="card-action">
+                    <a href="assets/doc/dott.pdf" target="_blank" class="waves-effect waves-light btn" id="cta">Scarica il .pdf</a>
+                </div>
+              </div>
+        </div>
+        <div class="col xl3 web-design">
+            <div class="card z-depth-3 ">
+            
+                <div class="card-image">
+                    <img class="card-img" src="/assets/img/daviderosso.png">
+                  </div>
+                  <div class="card-content">
+                    <h2> Creazione sito Personale Statico - Davide Rosso </h2>
+                    <p class="subtitle">Creazione di un sito personale in stile pixelArt con portfolio e modulo contatti.
+                    </p>
+                  </div>
+                  <div class="card-action">
+                      <a href="/" target="_blank" class="waves-effect waves-light btn" id="cta-green">Scarica il .pdf</a>
+                  </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="container">
+      <p class="white-text">&copy;2024 Davide Rosso. Tutti i diritti riservati.</p>
+      </div>
+  </footer>
+
+    <!-- import materialize js scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+     <!-- import js scripts -->
+    <script src="assets/js/script.js"></script>
+   
+</body>
+</html>
