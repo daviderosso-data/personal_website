@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.page-footer{
+    background-color: rgb(139,149,57);
+}
+.brand-logo{
+    font-family: "Pixelify Sans";
+}
+li {
+    font-family: "Pixelify Sans";
+}
+nav{
+    background-color: rgb(111, 149, 166);
+    border-style: solid; 
+    border-color:black;
+    border-width: 2px;
+    border-radius: 10px;    
+} 
+.sidenav{
+    background-color:rgba(155, 208, 233);
+}
+#sidenav-img{
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 100px;    
+}
+
+textarea{
+    min-height: 100px;
+}
+.card{ 
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+  padding: 4px; 
+   
+    }
+.card-title{
+    font-family: "Pixelify Sans";
+}
+#cta{
+    background-color: rgb(255, 163, 126);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    font-family: "Pixelify Sans";
+    color: black;
+}
+.switch label .lever {
+    background-color: #afb1af;
+ }
+ .switch label input[type=checkbox]:checked+.lever {
+    background-color: rgb(192, 220, 233);
+ }
+ .switch label input[type=checkbox]:checked+.lever:after {
+    background-color:rgba(155, 208, 233);
+ }
+#cta-green{
+    background-color: rgb(201, 255, 126);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    font-family: "Pixelify Sans";
+    color: black;
+}
+#cta-yellow{
+    background-color: rgb(249, 255, 126);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    font-family: "Pixelify Sans";
+    color: black;
+}
+#cta:hover{
+    background-color: white;
+}
+
+h1{
+    font-family: "Pixelify Sans";
+    font-size: 90px;
+     
+}
+h2{
+    font-family: "Pixelify Sans";
+    font-size: 25px; 
+    margin: 10px;
+}
+
+.subtitle{
+    font-family: "Pixelify Sans";
+    font-size: medium;
+    text-align: end;
+    margin: 5px;
+}
+
+.text{
+    font-family: "Pixelify Sans";
+    font-size: medium;
+    text-align: left;
+    margin: 5px;
+}
+
+.nav-wrapper{
+    right: 50px;
+} 
+
+.page-footer{
+    background-color:  rgb(111, 149, 166);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+
+}
+
+
