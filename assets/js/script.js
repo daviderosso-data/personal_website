@@ -58,7 +58,7 @@ window.onload = function () {
 
 
   // Filter - Portfolio Page
-
+  window.onload = function () {
 const digitalMarketingFilter = document.getElementById('filter-digital-marketing');
 const webDesignFilter = document.getElementById('filter-web-design');
 const rowContainer = document.getElementById('portfolio-row');
@@ -103,3 +103,4 @@ function applyFiltersAndReorganize() {
     
     // Applica i filtri all'inizio
     applyFiltersAndReorganize();
+};
