@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+body {
+  font-family: "Pixelify Sans";
+}
+
+.page-footer {
+  background-color: rgb(111, 149, 166);
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: rgb(111, 149, 166);
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.brand-logo,
+li,
+.card-title,
+#cta,
+#cta-green,
+#cta-yellow,
+h1,
+h2,
+.subtitle,
+.text {
+  font-family: "Pixelify Sans";
+}
+
+.sidenav {
+  background-color: rgb(111, 149, 166);
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+#navbar-link {
+  color: white;
+}
+
+#sidenav-img {
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.card {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+#cta,
+#cta-green,
+#cta-yellow {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  color: black;
+}
+
+#cta {
+  background-color: rgb(255, 163, 126);
+}
+#cta:hover {
+  background-color: white;
+}
+
+#cta-green {
+  background-color: rgb(201, 255, 126);
+}
+
+#cta-yellow {
+  background-color: rgb(249, 255, 126);
+}
+
+.switch label .lever {
+  background-color: #afb1af;
+}
+input[type=checkbox]:checked + .switch label .lever {
+  background-color: rgb(192, 220, 233);
+}
+input[type=checkbox]:checked + .switch label .lever:after {
+  background-color: rgb(155, 208, 233);
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.subtitle {
+  font-size: medium;
+  text-align: end;
+  margin: 5px;
+}
+
+.text {
+  font-size: medium;
+  text-align: left;
+  margin: 5px;
+}
+
+.nav-wrapper {
+  right: 50px;
+}/*# sourceMappingURL=styles.css.map */

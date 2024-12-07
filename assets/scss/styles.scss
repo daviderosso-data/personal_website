@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+// Variabili per colori e font principali
+$primary-bg: rgb(111, 149, 166);
+$cta-hover-bg: white;
+$font-family-pixel: "Pixelify Sans";
+
+// Mixin per bordi
+@mixin border-style($width: 2px, $style: solid, $color: black) {
+  border-width: $width;
+  border-style: $style;
+  border-color: $color;
+}
+
+@mixin border-radius($radius: 10px) {
+  border-radius: $radius;
+}
+
+// Stile globali
+body {
+  font-family: $font-family-pixel;
+}
+
+.page-footer {
+  background-color: $primary-bg;
+  @include border-style();
+  @include border-radius();
+}
+
+nav {
+  background-color: $primary-bg;
+  @include border-style();
+  @include border-radius();
+}
+
+.brand-logo,
+li,
+.card-title,
+#cta,
+#cta-green,
+#cta-yellow,
+h1,
+h2,
+.subtitle,
+.text {
+  font-family: $font-family-pixel;
+}
+
+// Sidenav
+.sidenav {
+  background-color: $primary-bg;
+  @include border-style();
+}
+
+#navbar-link{
+    color: white;
+}
+
+#sidenav-img {
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+// Card
+.card {
+  @include border-style();
+  @include border-radius();
+  padding: 4px;
+}
+
+// CTA Buttons
+#cta,
+#cta-green,
+#cta-yellow {
+  @include border-style();
+  @include border-radius();
+  color: black;
+}
+
+#cta {
+  background-color: rgb(255, 163, 126);
+
+  &:hover {
+    background-color: $cta-hover-bg;
+  }
+}
+
+#cta-green {
+  background-color: rgb(201, 255, 126);
+}
+
+#cta-yellow {
+  background-color: rgb(249, 255, 126);
+}
+
+// Switch
+.switch label {
+  .lever {
+    background-color: #afb1af;
+
+    input[type="checkbox"]:checked + & {
+      background-color: rgb(192, 220, 233);
+
+      &:after {
+        background-color: rgba(155, 208, 233);
+      }
+    }
+  }
+}
+
+// Typography
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.subtitle {
+  font-size: medium;
+  text-align: end;
+  margin: 5px;
+}
+
+.text {
+  font-size: medium;
+  text-align: left;
+  margin: 5px;
+}
+
+// Nav wrapper
+.nav-wrapper {
+  right: 50px;
+}
