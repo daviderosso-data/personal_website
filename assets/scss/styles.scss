@@ -21,6 +21,11 @@ body {
   font-family: $font-family-pixel;
 }
 
+#calendly{
+  min-width:320px;
+  height:700px;
+}
+
 .page-footer {
   background-color: $primary-bg;
   @include border-style();

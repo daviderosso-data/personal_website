@@ -3,6 +3,11 @@ body {
   font-family: "Pixelify Sans";
 }
 
+#calendly {
+  min-width: 320px;
+  height: 700px;
+}
+
 .page-footer {
   background-color: rgb(111, 149, 166);
   border-width: 2px;
